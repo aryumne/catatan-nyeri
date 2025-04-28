@@ -1,175 +1,211 @@
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">Pain Diary</string>
-    <string name="app_name_long">Privacy Friendly Pain Diary</string>
-    <string name="app_prefix" translatable="false">Privacy Friendly</string>
+  <string name="app_name">Catatan Nyeri</string>
+  <string name="app_name_long">Catatan Nyeri Ramah Privasi</string>
+  <string name="app_prefix" translatable="false">Ramah Privasi</string>
 
-    <!-- ### DRAWER ###-->
-    <string name="action_help">Help</string>
-    <string name="action_about">About</string>
-    <string name="action_settings">Settings</string>
-    <string name="action_main">Main</string>
-    <string name="action_tutorial">Tutorial</string>
 
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+  <string name="action_help">Bantuan</string>
+  <string name="action_about">Tentang</string>
+  <string name="action_settings">Pengaturan</string>
+  <string name="action_main">Beranda</string>
+  <string name="action_tutorial">Panduan</string>
 
-    <!-- ### GENERAL ### -->
-    <string name="okay">Okay</string>
-    <string name="back">Back</string>
-    <string name="next">Next</string>
-    <string name="skip">Skip</string>
-    <string name="save">Save</string>
-    <string name="save_error">Saving not possible.</string>
-    <string name="cancel">Cancel</string>
-    <string name="confirm">Confirm</string>
-    <string name="changes_saved">Changes saved.</string>
-    <string name="changes_discarded">Changes discarded.</string>
-    <string name="edit">Edit</string>
-    <string name="delete">Delete</string>
-    <string name="set">Set</string>
+  <string name="navigation_drawer_open">Buka menu navigasi</string>
+  <string name="navigation_drawer_close">Tutup menu navigasi</string>
 
-    <!-- ### MAIN ### -->
-    <string name="welcome_question">How do you feel today?</string>
 
-    <!--### HELP ###-->
-    <string name="help">Help</string>
+  <string name="okay">Oke</string>
+  <string name="back">Kembali</string>
+  <string name="next">Berikutnya</string>
+  <string name="skip">Lewati</string>
+  <string name="save">Simpan</string>
+  <string name="save_error">Tidak dapat menyimpan.</string>
+  <string name="cancel">Batal</string>
+  <string name="confirm">Konfirmasi</string>
+  <string name="changes_saved">Perubahan disimpan.</string>
+  <string name="changes_discarded">Perubahan dibatalkan.</string>
+  <string name="edit">Edit</string>
+  <string name="delete">Hapus</string>
+  <string name="set">Atur</string>
 
-    <string name="help_whatis">What is Privacy Friendly Pain Diary?</string>
-    <string name="help_whatis_answer">Privacy Friendly Pain Diary is an app that allows you to make daily diary entries recording your condition and the intensity, location, nature and time of the pain you feel, as well as the medication you take and additional notes.</string>
-    <string name="help_privacy">What makes the app privacy friendly?</string>
-    <string name="help_privacy_answer">Privacy Friendly Pain Diary requires minimal permissions. It does not include any tracking mechanisms or advertisement.</string>
-    <string name="help_permission">Which permissions does the app require?</string>
-    <string name="help_permission_answer">Privacy Friendly Pain Diary requires write access to your device\'s storage if you wish to export your diary entries to PDF. All other features do not require any permissions.</string>
 
-    <string name="help_add_entry">How do I add a new diary entry?</string>
-    <string name="help_add_entry_answer">A new diary entry can be added by selecting a day in the calendar. There can however only be one entry per day. Days for which entries already exist are marked in the calendar.</string>
-    <string name="help_entry_information">Which information is recorded in a diary entry?</string>
-    <string name="help_entry_information_answer">Diary entries can be used to document your condition and the intensity, location, nature and time of the pain you feel. The medication you take and additional notes can also be recorded.</string>
-    <string name="help_userdetails">Do I have to enter user details?</string>
-    <string name="help_userdetails_answer">The app does not require you to enter any user details. You are free to enter your name, date of birth and gender and you can delete information you previously entered at any time. The information you enter is not shared or transmitted in any way.</string>
-    <string name="help_pdf_export">How can I export my diary entries?</string>
-    <string name="help_pdf_export_answer">You can export all diary entries made within a period of time that you specify. You also have the option to share that PDF. Select the menu item "PDF Export" to do so.</string>
+  <string name="welcome_question">Bagaimana perasaan Anda hari ini?</string>
 
-    <!--### ABOUT ###-->
-    <string name="about">About</string>
-    <string name="version_number">Version</string>
-    <string name="about_author">Authors: </string>
-    <string name="about_author_names" translatable="false">Karola Marky, Susanne Felsen, Rybien Sinjari</string>
-    <string name="about_author_contributors">and contributors.</string>
-    <string name="about_affiliation">In affiliation with</string>
-    <string name="privacy_friendly">This application belongs to the group of Privacy Friendly Apps developed by Karlsruhe Institute of Technology. Sourcecode licensed under GPLv3. Images copyright KIT and Google Inc.</string>
-    <string name="more_info">More information can be found on:</string>
-    <string name="github" translatable="false"><a href="https://github.com/SecUSo/privacy-friendly-pain-diary">Github-Repo</a></string>
-    <string name="url" translatable="false"><a href="https://www.secuso.org/pfa">SECUSO-Website</a></string>
 
-    <!-- ### SETTINGS ### -->
-    <string name="title_activity_settings">Settings</string>
-    <string name="pref_header_general">General</string>
-    <string name="pref_reset">Reset app</string>
-    <string name="pref_reset_summary">Delete all diary entries and user details</string>
-    <string name="pref_reset_warning">All diary entries and user details will be deleted irrevocably.\nAre you sure?</string>
-    <string name="pref_medication">Remember Medication</string>
-    <string name="pref_medication_summary">The medication last entered is automatically added to new entries</string>
-    <string name="pref_header_notifications">Notifications</string>
-    <string name="pref_reminder">Daily Reminder</string>
-    <string name="pref_reminder_time">Reminder Time</string>
+  <string name="help">Bantuan</string>
 
-    <!-- ### TUTORIAL DIALOG ### -->
-    <string name="slide1_heading">Welcome!</string>
-    <string name="slide1_text">This app allows you to make daily diary entries recording your condition and the intensity, location, nature and time of the pain you feel, as well as the medication you take and additional notes.</string>
+  <string name="help_whatis">Apa itu Catatan Nyeri Ramah Privasi?</string>
+  <string name="help_whatis_answer">Catatan Nyeri Ramah Privasi adalah aplikasi yang memungkinkan
+    Anda membuat catatan harian harian mengenai kondisi Anda dan intensitas, lokasi, sifat, dan
+    waktu rasa nyeri yang Anda rasakan, serta obat yang Anda konsumsi dan catatan tambahan.</string>
+  <string name="help_privacy">Apa yang membuat aplikasi ini ramah privasi?</string>
+  <string name="help_privacy_answer">Aplikasi ini memerlukan izin minimal. Tidak mengandung
+    mekanisme pelacakan atau iklan apa pun.</string>
+  <string name="help_permission">Izin apa yang dibutuhkan aplikasi ini?</string>
+  <string name="help_permission_answer">Catatan Nyeri Ramah Privasi memerlukan akses tulis ke
+    penyimpanan perangkat Anda jika Anda ingin mengekspor entri harian ke dalam bentuk PDF. Semua
+    fitur lainnya tidak memerlukan izin apa pun.</string>
 
-    <string name="slide2_heading">New Diary Entry</string>
-    <string name="slide2_text">The main view of this app is a calendar. You can add a new diary entry by selecting a day in this calendar. You will then be asked to answer questions regarding your condition and the pain you are experiencing.</string>
+  <string name="help_add_entry">Bagaimana cara menambahkan entri harian baru?</string>
+  <string name="help_add_entry_answer">Entri harian baru dapat ditambahkan dengan memilih sebuah
+    hari di kalender. Namun, hanya diperbolehkan satu entri per hari. Hari yang sudah memiliki entri
+    akan ditandai di kalender.</string>
 
-    <string name="slide3_heading">User Details</string>
-    <string name="slide3_text">At the end of this tutorial you will be asked to enter your user details. This step is optional and can be skipped. User details can also be entered or deleted at a later point.</string>
+  <string name="help_entry_information">Informasi apa saja yang dicatat dalam entri harian?</string>
+  <string name="help_entry_information_answer">Entri harian dapat digunakan untuk mencatat kondisi
+    Anda serta intensitas, lokasi, sifat, dan waktu rasa nyeri yang Anda rasakan. Obat yang Anda
+    konsumsi dan catatan tambahan juga dapat dicatat.</string>
 
-    <string name="slide4_heading">Github and Guide</string>
-    <string name="slide4_text">The sourcecode of this app is available at GitHub. For further explanations have a look at the help page or the Privacy Friendly App Guide.</string>
+  <string name="help_userdetails">Apakah saya harus mengisi detail pengguna?</string>
+  <string name="help_userdetails_answer">Aplikasi ini tidak mengharuskan Anda mengisi detail
+    pengguna. Anda bebas untuk memasukkan nama, tanggal lahir, dan jenis kelamin, serta dapat
+    menghapus informasi yang telah Anda masukkan kapan saja. Informasi yang Anda masukkan tidak akan
+    dibagikan atau dikirimkan dengan cara apa pun.</string>
 
-    <!-- ### USER DETAILS ### -->
-    <string name="user_details">User Details </string>
-    <string name="first_name">First Name</string>
-    <string name="last_name">Last Name</string>
-    <string name="date_of_birth">Date of Birth</string>
-    <string name="gender">Gender</string>
-    <string name="name_invalid">Please enter a valid name.</string>
-    <string name="date_invalid">Please enter a valid date.</string>
+  <string name="help_pdf_export">Bagaimana cara mengekspor entri harian saya?</string>
+  <string name="help_pdf_export_answer">Anda dapat mengekspor semua entri harian yang dibuat dalam
+    rentang waktu yang Anda tentukan. Anda juga memiliki opsi untuk membagikan PDF tersebut. Pilih
+    menu "Ekspor PDF" untuk melakukannya.</string>
 
-    <!-- ### GENDER ### -->
-    <string name="male">male</string>
-    <string name="female">female</string>
-    <string name="other">other</string>
 
-    <!-- ### PAIN DESCRIPTION ### -->
-    <string name="pain_stabbing">stabbing</string>
-    <string name="pain_dull">dull</string>
-    <string name="pain_shooting">shooting</string>
-    <string name="pain_burning">burning</string>
-    <string name="pain_throbbing">throbbing</string>
+  <string name="about">Tentang</string>
+  <string name="version_number">Versi</string>
+  <string name="about_author">Penulis:</string>
+  <string name="about_author_names" translatable="false">Karola Marky, Susanne Felsen, Rybien
+    Sinjari</string>
+  <string name="about_author_contributors">dan kontributor lainnya.</string>
+  <string name="about_affiliation">Bekerja sama dengan</string>
+  <string name="privacy_friendly">Aplikasi ini termasuk dalam kelompok Aplikasi Ramah Privasi yang
+    dikembangkan oleh Karlsruhe Institute of Technology. Kode sumber dilisensikan di bawah GPLv3.
+    Gambar dilindungi hak cipta oleh KIT dan Google Inc.</string>
+  <string name="more_info">Informasi lebih lanjut dapat ditemukan di:</string>
+  <string name="github" translatable="false">
+    <a href="https://github.com/SecUSo/privacy-friendly-pain-diary">Github-Repo</a>
+  </string>
+  <string name="url" translatable="false">
+    <a href="https://www.secuso.org/pfa">Situs Web SECUSO</a>
+  </string>
 
-    <!-- ### DIARY ENTRY ### -->
-    <string name="new_diary_entry">New Diary Entry</string>
-    <string name="edit_diary_entry">Edit Diary Entry</string>
-    <string name="warning_leaving">The information you have entered will be lost. Do you want to continue?</string>
-    <string name="heading_condition">How do you feel?</string>
-    <string name="heading_painlevel">How strong is your pain?</string>
-    <string name="subheading_painlevel">(0 = no pain, 10 = very strong pain (on the verge of fainting))</string>
-    <string name="heading_bodyregion">Where do you feel pain?</string>
-    <string name="body_front">Front:</string>
-    <string name="body_back">Back:</string>
-    <string name="heading_paindescription">What is the nature of your pain?</string>
-    <string name="heading_timeofpain">When do you feel pain?</string>
-    <string name="time_day">during the day</string>
-    <string name="time_morning">in the morning</string>
-    <string name="time_afternoon">in the afternoon</string>
-    <string name="time_evening">in the evening</string>
-    <string name="time_night">at night</string>
-    <string name="heading_notes">Do you have any additional comments?</string>
-    <string name="subheading_notes">(e.g. concerning exercise or diet)</string>
-    <string name="heading_medication">What medication are you taking?</string>
-    <string name="subheading_medication">Press the green plus to add new medications. Enter the quantity (e. g. number of pills) you take in the morning, at noon, in the evening and at night.</string>
-    <string name="medication">Medication</string>
-    <string name="medication_name">Name</string>
-    <string name="dose">Dose</string>
 
-    <!-- ### VIEW DIARY ENTRY ### -->
-    <string name="condition">Condition:</string>
-    <string name="painlevel">Pain Intensity:</string>
-    <string name="bodyregion">Location of the pain:</string>
-    <string name="paindescription">Nature of the pain:</string>
-    <string name="unknown">unknown</string>
-    <string name="timeofpain">Time of the pain:</string>
-    <string name="notes">Comments:</string>
-    <string name="none">none</string>
-    <string name="medication_taken">Medication taken:</string>
-    <string name="warning_deleting">Are you sure you want to delete this diary entry?</string>
+  <string name="title_activity_settings">Pengaturan</string>
+  <string name="pref_header_general">Umum</string>
+  <string name="pref_reset">Atur Ulang Aplikasi</string>
+  <string name="pref_reset_summary">Hapus semua entri harian dan detail pengguna</string>
+  <string name="pref_reset_warning">Semua entri harian dan detail pengguna akan dihapus secara
+    permanen.\nApakah Anda yakin?</string>
+  <string name="pref_medication">Ingat Obat</string>
+  <string name="pref_medication_summary">Obat yang terakhir dimasukkan akan otomatis ditambahkan ke
+    entri baru</string>
+  <string name="pref_header_notifications">Notifikasi</string>
+  <string name="pref_reminder">Pengingat Harian</string>
+  <string name="pref_reminder_time">Waktu Pengingat</string>
 
-    <!-- ### REMINDER ### -->
-    <string name="reminders_channel_title">Reminders</string>
-    <string name="notification_title">Reminder</string>
-    <string name="notification_text">Don\'t forget to make your daily pain diary entry!</string>
-    <string name="snooze">Snooze</string>
 
-    <!-- ### PDF ### -->
-    <string name="export_pdf">PDF Export</string>
-    <string name="export">Export</string>
-    <string name="share">Share</string>
-    <string name="heading_export">Please select a range of dates for which your pain diary entries should be exported as PDF.</string>
-    <string name="start_date">Start Date</string>
-    <string name="end_date">End Date</string>
-    <string name="start_date_error">Please enter a start date.</string>
-    <string name="end_date_error">Please enter an end date.</string>
-    <string name="patient_details">Patient Details</string>
-    <string name="diary_entries">Pain Diary Entries</string>
-    <string name="diary_entries_none">No entries found.</string>
-    <string name="permission_write_error">Error: Do not have permission to write.</string>
-    <string name="permission_write_denied">Permission denied. Cannot export diary entries.</string>
-    <string name="permission_write_granted">Permission granted. Please try again.</string>
-    <string name="export_success">PDF was saved to documents folder.</string>
-    <string name="export_failure">Unknown Error: PDF could not be saved.</string>
-    <string name="share_caution">Be careful who you share your medical information with.</string>
-    <string name="dialog_need_permission_for_notifications">Permission to send notifications is needed for this feature.</string>
-    <string name="dialog_need_permission_for_notifications_title">Enable notifications</string>
+  <string name="slide1_heading">Selamat Datang!</string>
+  <string name="slide1_text">Aplikasi ini memungkinkan Anda membuat entri harian yang mencatat
+    kondisi Anda serta intensitas, lokasi, sifat, dan waktu nyeri yang Anda rasakan, serta obat yang
+    Anda konsumsi dan catatan tambahan.</string>
+
+  <string name="slide2_heading">Entri Harian Baru</string>
+  <string name="slide2_text">Tampilan utama aplikasi ini adalah kalender. Anda dapat menambahkan
+    entri harian baru dengan memilih suatu hari di kalender. Anda kemudian akan diminta menjawab
+    pertanyaan mengenai kondisi Anda dan nyeri yang sedang Anda alami.</string>
+
+  <string name="slide3_heading">Detail Pengguna</string>
+  <string name="slide3_text">Di akhir tutorial ini, Anda akan diminta untuk memasukkan detail
+    pengguna. Langkah ini bersifat opsional dan bisa dilewati. Detail pengguna juga dapat
+    ditambahkan atau dihapus di lain waktu.</string>
+
+  <string name="slide4_heading">Github dan Panduan</string>
+  <string name="slide4_text">Kode sumber aplikasi ini tersedia di GitHub. Untuk penjelasan lebih
+    lanjut, silakan lihat halaman bantuan atau Panduan Aplikasi Ramah Privasi.</string>
+
+
+  <string name="user_details">Detail Pengguna</string>
+  <string name="first_name">Nama Depan</string>
+  <string name="last_name">Nama Belakang</string>
+  <string name="date_of_birth">Tanggal Lahir</string>
+  <string name="gender">Jenis Kelamin</string>
+  <string name="name_invalid">Silakan masukkan nama yang valid.</string>
+  <string name="date_invalid">Silakan masukkan tanggal yang valid.</string>
+
+  <string name="male">laki-laki</string>
+  <string name="female">perempuan</string>
+  <string name="other">lainnya</string>
+
+  <string name="pain_stabbing">menusuk</string>
+  <string name="pain_dull">tumpul</string>
+  <string name="pain_shooting">menyentak</string>
+  <string name="pain_burning">terbakar</string>
+  <string name="pain_throbbing">berdenyut</string>
+
+
+  <string name="new_diary_entry">Entri Harian Baru</string>
+  <string name="edit_diary_entry">Edit Entri Harian</string>
+  <string name="warning_leaving">Informasi yang telah Anda masukkan akan hilang. Apakah Anda ingin
+    melanjutkan?</string>
+  <string name="heading_condition">Bagaimana perasaan Anda?</string>
+  <string name="heading_painlevel">Seberapa kuat rasa nyeri Anda?</string>
+  <string name="subheading_painlevel">(0 = tidak ada nyeri, 10 = sangat nyeri (hingga hampir
+    pingsan))</string>
+  <string name="heading_bodyregion">Di mana Anda merasakan nyeri?</string>
+  <string name="body_front">Depan:</string>
+  <string name="body_back">Belakang:</string>
+  <string name="heading_paindescription">Apa sifat dari nyeri Anda?</string>
+  <string name="heading_timeofpain">Kapan Anda merasakan nyeri?</string>
+  <string name="time_day">saat siang hari</string>
+  <string name="time_morning">pagi hari</string>
+  <string name="time_afternoon">sore hari</string>
+  <string name="time_evening">malam hari</string>
+  <string name="time_night">pada malam hari</string>
+  <string name="heading_notes">Apakah Anda memiliki komentar tambahan?</string>
+  <string name="subheading_notes">(misalnya mengenai olahraga atau pola makan)</string>
+  <string name="heading_medication">Obat apa yang Anda konsumsi?</string>
+  <string name="subheading_medication">Tekan tombol plus hijau untuk menambahkan obat baru. Masukkan
+    jumlah (mis. jumlah pil) yang Anda konsumsi di pagi, siang, malam, dan malam hari.</string>
+  <string name="medication">Obat</string>
+  <string name="medication_name">Nama</string>
+  <string name="dose">Dosis</string>
+
+
+  <string name="condition">Kondisi:</string>
+  <string name="painlevel">Intensitas Nyeri:</string>
+  <string name="bodyregion">Lokasi Nyeri:</string>
+  <string name="paindescription">Sifat Nyeri:</string>
+  <string name="unknown">tidak diketahui</string>
+  <string name="timeofpain">Waktu Nyeri:</string>
+  <string name="notes">Komentar:</string>
+  <string name="none">tidak ada</string>
+  <string name="medication_taken">Obat yang dikonsumsi:</string>
+  <string name="warning_deleting">Apakah Anda yakin ingin menghapus entri harian ini?</string>
+
+  <string name="reminders_channel_title">Pengingat</string>
+  <string name="notification_title">Pengingat</string>
+  <string name="notification_text">Jangan lupa untuk mengisi entri Catatan nyeri harian Anda!</string>
+  <string name="snooze">Tunda</string>
+
+
+  <string name="export_pdf">Ekspor PDF</string>
+  <string name="export">Ekspor</string>
+  <string name="share">Bagikan</string>
+  <string name="heading_export">Silakan pilih rentang tanggal untuk mengekspor entri Catatan nyeri
+    Anda dalam bentuk PDF.</string>
+  <string name="start_date">Tanggal Mulai</string>
+  <string name="end_date">Tanggal Selesai</string>
+  <string name="start_date_error">Silakan masukkan tanggal mulai.</string>
+  <string name="end_date_error">Silakan masukkan tanggal selesai.</string>
+  <string name="patient_details">Detail Pasien</string>
+  <string name="diary_entries">Entri Catatan Nyeri</string>
+  <string name="diary_entries_none">Tidak ada entri yang ditemukan.</string>
+  <string name="permission_write_error">Kesalahan: Tidak memiliki izin untuk menulis.</string>
+  <string name="permission_write_denied">Izin ditolak. Tidak dapat mengekspor entri buku harian.</string>
+  <string name="permission_write_granted">Izin diberikan. Silakan coba lagi.</string>
+  <string name="export_success">PDF berhasil disimpan ke folder dokumen.</string>
+  <string name="export_failure">Kesalahan Tidak Diketahui: PDF tidak dapat disimpan.</string>
+  <string name="share_caution">Berhati-hatilah saat membagikan informasi medis Anda.</string>
+  <string name="dialog_need_permission_for_notifications">Izin untuk mengirim notifikasi diperlukan
+    untuk fitur ini.</string>
+  <string name="dialog_need_permission_for_notifications_title">Aktifkan Notifikasi</string>
 
 </resources>
